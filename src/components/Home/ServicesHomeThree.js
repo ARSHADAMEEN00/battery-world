@@ -1,8 +1,5 @@
 import React from "react"
-import iconOne from "../../assets/images/icon/1.png"
-import iconTwo from "../../assets/images/icon/2.png"
-import iconThree from "../../assets/images/icon/3.png"
-import iconFour from "../../assets/images/icon/4.png"
+import { battery, homeInverter, inverter, solarPanel } from "../../assets/images"
 
 function ServicesHomeThree() {
   return (
@@ -15,10 +12,9 @@ function ServicesHomeThree() {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="appie-section-title text-center">
-                <h3 className="appie-title">What you can do</h3>
+                <h3 className="appie-title">Services We Provide</h3>
                 <p>
-                  The full monty spiffing good time no biggie cack grub
-                  fantastic.
+                  Here we provide best solar system, home inverter and batteries
                 </p>
               </div>
             </div>
@@ -38,13 +34,10 @@ function ServicesHomeThree() {
                 data-wow-delay="200ms"
               >
                 <div className="icon">
-                  <img src={iconOne} alt="" />
+                  <img src={battery} alt="" />
                 </div>
-                <h4 className="appie-title">Easy to use</h4>
+                <h4 className="appie-title">Automobile Battery</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
-                <a href="#">
-                  Read More <i className="fal fa-arrow-right" />
-                </a>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -62,13 +55,11 @@ function ServicesHomeThree() {
                 data-wow-delay="400ms"
               >
                 <div className="icon">
-                  <img src={iconTwo} alt="" />
+                  <img src={homeInverter} alt="" />
                 </div>
-                <h4 className="appie-title">App Development</h4>
+                <h4 className="appie-title">Inverter Battery</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
-                <a href="#">
-                  Read More <i className="fal fa-arrow-right" />
-                </a>
+
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -86,13 +77,11 @@ function ServicesHomeThree() {
                 data-wow-delay="600ms"
               >
                 <div className="icon">
-                  <img src={iconThree} alt="" />
+                  <img src={inverter} alt="" />
                 </div>
-                <h4 className="appie-title">Fully Functional</h4>
+                <h4 className="appie-title">Inverter System</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
-                <a href="#">
-                  Read More <i className="fal fa-arrow-right" />
-                </a>
+
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -110,13 +99,11 @@ function ServicesHomeThree() {
                 data-wow-delay="800ms"
               >
                 <div className="icon">
-                  <img src={iconFour} alt="" />
+                  <img src={solarPanel} alt="" />
                 </div>
-                <h4 className="appie-title">Secured protocol</h4>
+                <h4 className="appie-title">Solar System</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
-                <a href="#">
-                  Read More <i className="fal fa-arrow-right" />
-                </a>
+
               </div>
             </div>
           </div>

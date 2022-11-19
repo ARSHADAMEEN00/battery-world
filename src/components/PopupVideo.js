@@ -1,9 +1,6 @@
 import React from "react"
 
 function PopupVideo({ videoSrc, handler }) {
-  /* 
-     //www.youtube.com/embed/EE7NqzhMDms?autoplay=1
-    */
   return (
     <div>
       <div onClick={handler} className="mfp-bg mfp-ready"></div>
@@ -28,7 +25,7 @@ function PopupVideo({ videoSrc, handler }) {
                 className="mfp-iframe"
                 src={videoSrc}
                 frameBorder="0"
-                allowFullScreen=""
+                allowFullScreen={true}
               />
             </div>
           </div>

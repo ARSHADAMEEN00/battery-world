@@ -7,37 +7,14 @@ function Navigation() {
       <ul>
         <li>
           <Link to="/">
-            Home <i className="fal fa-angle-down" />
+            Home
           </Link>
         </li>
         <li>
           <Link to="/service">Service</Link>
         </li>
         <li>
-          <a href="#">
-            Pages <i className="fal fa-angle-down" />
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link to="/about-us">About</Link>
-            </li>
-            <li>
-              <Link to="/error">Error</Link>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            News <i className="fal fa-angle-down" />
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link to="/news">News Page</Link>
-            </li>
-            <li>
-              <Link to="/news/single-news">Single News</Link>
-            </li>
-          </ul>
+          <Link to="/about-us">About</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

@@ -875,7 +875,8 @@ p {
   color: #ff3e66;
 }
 .appie-header-area.appie-header-3-area.appie-sticky.sticky {
-  background: #0e1133;
+  /* background: #0e1133; */
+  background: #fff;
 }
 .appie-header-area.appie-header-4-area.appie-sticky.sticky {
   background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
@@ -925,7 +926,7 @@ p {
   }
 }
 .header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li > a {
-  color: #fff;
+  color: #12174e;
 }
 .header-nav-box.header-nav-box-3
   .appie-header-main-menu
@@ -940,12 +941,13 @@ p {
   color: #fff;
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .main-btn {
-  background: #ff6b58;
-  border-color: #ff6b58;
+  /* background: #ff6b58; */
+  border-color: #28a745;
+  background: #28a745;
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .main-btn:hover {
   background: transparent;
-  color: #ff6b58;
+  color: #fff;
 }
 .header-nav-box.header-nav-box-3 .toggle-btn {
   color: #fff;
@@ -1461,8 +1463,8 @@ p {
   margin-top: 35px;
 }
 .appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .main-btn {
-  border-color: #ff6b58;
-  color: #ff6b58;
+  border-color: #28a745;
+  color: #28a745;
   background: transparent;
   margin-right: 14px;
 }

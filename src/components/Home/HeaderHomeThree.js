@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
-import logo from "../../assets/images/logo-3.png"
 import StickyMenu from "../../lib/StickyMenu"
 import Navigation from "../Navigation"
+import { logo } from "../../assets/images/index"
 
 function HeaderHomeThree({ action }) {
   useEffect(() => {
@@ -16,10 +16,7 @@ function HeaderHomeThree({ action }) {
               <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                 <div className="appie-logo-box">
                   <a href="/">
-                    {/* <img src={logo} alt="" /> */}
-                    <span style={{ color: "white" }}>Battery World (logo)</span>
-
-
+                    <img src={logo} alt="" height={70} />
                   </a>
                 </div>
               </div>
@@ -30,11 +27,11 @@ function HeaderHomeThree({ action }) {
               </div>
               <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                 <div className="appie-btn-box text-right">
-                  <a className="login-btn" href="#">
-                    <i className="fal fa-user" /> Login
+                  <a className="login-btn" href="tel:9995566067">
+                    <i className="fal fa-phone" /> +91 9995566067
                   </a>
-                  <a className="main-btn ml-30" href="#">
-                    Get Started
+                  <a className="main-btn ml-30" href="/contact">
+                    Contact us
                   </a>
                   <div
                     onClick={e => action(e)}

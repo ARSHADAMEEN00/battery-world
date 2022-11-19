@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import heroThumb from "../../assets/images/hero-thumb-4.png"
+import { heroBanner } from "../../assets/images"
 import PopupVideo from "../PopupVideo"
 
 function HeroHomeThree() {
@@ -8,11 +8,12 @@ function HeroHomeThree() {
     e.preventDefault()
     setVideoValue(!showVideo)
   }
+  const cloudLink = 'https://res.cloudinary.com/osperb/video/upload/v1668844394/BatteryWorld/Massimo_Batteries_-_Manufacturing_Setup_India___Tubular_Batteries___Automotive_Batteries_online-video-cutter.com_ciseid.mp4'
   return (
     <>
       {showVideo && (
         <PopupVideo
-          videoSrc="//www.youtube.com/embed/EE7NqzhMDms?autoplay=1"
+          videoSrc={cloudLink}
           handler={e => handleShowVideo(e)}
         />
       )}
@@ -22,21 +23,21 @@ function HeroHomeThree() {
             <div className="col-lg-10">
               <div className="appie-hero-content text-center">
                 <h1 className="appie-title">
-                  Creative way to Showcase your app
+                  Better battery for the best journey
                 </h1>
                 <p>
-                  Jolly good excuse my french boot super my good sir cup of{" "}
+                  INVERTER, BATTERY & SOLAR SYSTEM{" "}
                   <br />
-                  char richard about chinwag.
+                  SALES & SERVICE
                 </p>
                 <div className="hero-btns">
                   <a className="main-btn" href="#">
-                    Get a Quote
+                    Learn more
                   </a>
                   <a
                     onClick={e => handleShowVideo(e)}
                     className="appie-video-popup"
-                    href="https://www.youtube.com/watch?v=EE7NqzhMDms"
+                    href={'#!'}
                   >
                     <i className="fas fa-play" /> Play Video
                   </a>
@@ -46,7 +47,7 @@ function HeroHomeThree() {
                   data-wow-duration="2000ms"
                   data-wow-delay="400ms"
                 >
-                  <img src={heroThumb} alt="" />
+                  <img src={heroBanner} alt="" />
                 </div>
               </div>
             </div>

@@ -23,24 +23,24 @@ function FooterHomeThree({ className }) {
                 <div className="social mt-30">
                   <ul>
                     <li>
-                      <Link to="#">
+                      <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100063748002698&mibextid=LQQJ4d">
                         <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <Link to="#">
+                        <i className="fab fa-instagram" />
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
-                        <i className="fab fa-twitter" />
+                        <i className="fab fa-youtube" />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-pinterest-p" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fab fa-linkedin-in" />
-                      </Link>
+                      <a href="tel:9495566067">
+                        <i className="fab fa-whatsapp" />
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -84,18 +84,18 @@ function FooterHomeThree({ className }) {
                 <h4 className="title">Get In Touch</h4>
                 <ul>
                   <li>
-                    <a href="mailto:BatteryWorld@gmail.com" >
-                      <i className="fal fa-envelope" style={{ paddingTop: 4 }} /> BatteryWorld@gmail.com
+                    <a href="mailto:batteryworldmpm@gmail.com" >
+                      <i className="fal fa-envelope" style={{ paddingTop: 4 }} /> batteryworldmpm@gmail.com
                     </a>
                   </li>
                   <li>
-                    <a href="tel:6235566067">
-                      <i className="fal fa-phone" style={{ paddingTop: 4 }} />+91 6235566067
+                    <a href="tel:9495566067">
+                      <i className="fal fa-phone" style={{ paddingTop: 4 }} />+91 9495566067
                     </a>
                   </li>
                   <li>
                     <Link to="#">
-                      <i className="fal fa-map-marker-alt" style={{ paddingTop: 4 }} /> Road, Chattipparamba - Kadampuzha Rd, Kottakkal, Kerala 676504
+                      <i className="fal fa-map-marker-alt" style={{ paddingTop: 4 }} />  Chattipparamba, Kottakkal Road, Kerala 676504
                     </Link>
                   </li>
                 </ul>

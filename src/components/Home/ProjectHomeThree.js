@@ -24,7 +24,7 @@ function ProjectHomeThree({ className }) {
                   Having trouble starting your car <br /> due to a damaged battery?
                 </h4>
                 <div className="text-center">
-                  <a className="main-btn mb-2" href="tel:6235566067">
+                  <a className="main-btn mb-2" href="tel:9495566067">
                     REQUEST A CALLBACK!
                   </a>
                   <p className="text-white" style={{ fontSize: "12px" }}>

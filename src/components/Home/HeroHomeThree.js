@@ -25,7 +25,7 @@ function HeroHomeThree() {
             <div className="col-lg-10">
               <div className="appie-hero-content text-center">
                 <h1 className="appie-title">
-                  Better battery for the best journey
+                  Better battery for the Best journey
                 </h1>
                 <p>
                   INVERTER, BATTERY & SOLAR SYSTEM{" "}

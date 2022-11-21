@@ -89,8 +89,8 @@ function FooterHomeThree({ className }) {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:9995566067">
-                      <i className="fal fa-phone" style={{ paddingTop: 4 }} />+91 9995566067
+                    <a href="tel:6235566067">
+                      <i className="fal fa-phone" style={{ paddingTop: 4 }} />+91 6235566067
                     </a>
                   </li>
                   <li>

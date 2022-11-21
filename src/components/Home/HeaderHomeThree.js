@@ -27,8 +27,8 @@ function HeaderHomeThree({ action }) {
               </div>
               <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                 <div className="appie-btn-box text-right">
-                  <a className="login-btn" href="tel:9995566067" style={{ color: "#000" }}>
-                    <i className="fal fa-phone" /> +91 9995566067
+                  <a className="login-btn" href="tel:6235566067" style={{ color: "#000" }}>
+                    <i className="fal fa-phone" /> +91 6235566067
                   </a>
                   <a className="main-btn ml-30" href="/contact">
                     Contact us

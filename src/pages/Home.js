@@ -1,7 +1,6 @@
 import React from "react"
 import BackToTop from "../components/BackToTop"
 import AboutHomeThree from "../components/Home/AboutHomeThree"
-import BlogHomeThree from "../components/Home/BlogHomeThree"
 import DownloadHomeThree from "../components/Home/DownloadHomeThree"
 import FooterHomeThree from "../components/Home/FooterHomeThree"
 import FunFactHomeThree from "../components/Home/FunFactHomeThree"
@@ -25,7 +24,6 @@ function Home() {
             <AboutHomeThree />
             <ShowCaseHomeThree />
             <DownloadHomeThree />
-            <BlogHomeThree />
             <ProjectHomeThree />
             <FooterHomeThree />
             <BackToTop className="back-to-top-3" />

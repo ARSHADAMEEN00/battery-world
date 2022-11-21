@@ -21,12 +21,16 @@ function ProjectHomeThree({ className }) {
                 data-wow-delay="400ms"
               >
                 <h4 className="title">
-                  Start your project <br />
-                  with Appie.
+                  Having trouble starting your car <br /> due to a damaged battery?
                 </h4>
-                <a className="main-btn" href="#">
-                  Let’s Talk
-                </a>
+                <div className="text-center">
+                  <a className="main-btn mb-2" href="tel:9995566067">
+                    REQUEST A CALLBACK!
+                  </a>
+                  <p className="text-white" style={{ fontSize: "12px" }}>
+                    Our Customer Executive will call you within 24 Hrs.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

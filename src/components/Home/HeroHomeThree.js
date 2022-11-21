@@ -8,7 +8,7 @@ function HeroHomeThree() {
     e.preventDefault()
     setVideoValue(!showVideo)
   }
-  const cloudLink = 'https://res.cloudinary.com/osperb/video/upload/v1668844394/BatteryWorld/Massimo_Batteries_-_Manufacturing_Setup_India___Tubular_Batteries___Automotive_Batteries_online-video-cutter.com_ciseid.mp4'
+  const cloudLink = 'https://res.cloudinary.com/osperb/video/upload/v1668844394/BatteryWorld/Batteries_Manufacturing_Setup.mp4'
   return (
     <>
       {showVideo && (

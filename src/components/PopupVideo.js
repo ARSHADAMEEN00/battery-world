@@ -20,12 +20,14 @@ function PopupVideo({ videoSrc, handler }) {
               >
                 ×
               </button>
+
               <iframe
                 title="video"
                 className="mfp-iframe"
                 src={videoSrc}
                 frameBorder="0"
                 allowFullScreen={true}
+                autoPlay={true}
               />
             </div>
           </div>

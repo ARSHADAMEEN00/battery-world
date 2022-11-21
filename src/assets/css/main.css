@@ -947,7 +947,7 @@ p {
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .main-btn:hover {
   background: transparent;
-  color: #fff;
+  color: #28a745;
 }
 .header-nav-box.header-nav-box-3 .toggle-btn {
   color: #fff;
@@ -1515,7 +1515,7 @@ p {
 }
 .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
   background-color: #eef1f6;
-  background-image: url(../images/hero-bg-2.png);
+  /* background-image: url(../images/hero-bg-2.png); */
   padding-top: 280px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1628,7 +1628,7 @@ p {
 }
 .appie-hero-area.appie-hero-4-area {
   background: #f9f9f9;
-  background-image: url(../images/hero-shape-1.png);
+  /* background-image: url(../images/hero-shape-1.png); */
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 6% 100%;
@@ -1636,10 +1636,10 @@ p {
   padding-bottom: 60px;
 }
 .appie-hero-area.appie-hero-6-area {
-  background-image: url(../images/hero-bg-3.jpg);
+  /* background-image: url(../images/hero-bg-3.jpg); */
 }
 .appie-hero-area.appie-hero-7-area {
-  background-image: url(../images/hero-bg-4.png);
+  /* background-image: url(../images/hero-bg-4.png); */
 }
 .appie-hero-area.appie-hero-8-area {
   position: relative;
@@ -2088,7 +2088,7 @@ p {
   transform: translate(-50%, -50%);
   width: 130px;
   height: 70px;
-  background-image: url(../images/hero-line.png);
+  /* background-image: url(../images/hero-line.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3110,7 +3110,7 @@ p {
     6.APPIE TRAFFICE css 
 ===========================*/
 .appie-testimonial-area {
-  background-image: url(../images/testimonial-bg.png);
+  /* background-image: url(../images/testimonial-bg.png); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3205,7 +3205,7 @@ p {
 }
 
 .appie-testimonial-2-box {
-  background-image: url(../images/testimonial-bg-2.jpg);
+  /* background-image: url(../images/testimonial-bg-2.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3346,7 +3346,7 @@ p {
 }
 
 .appie-testimonial-about-area {
-  background-image: url(../images/map-bg.png);
+  /* background-image: url(../images/map-bg.png); */
   background-size: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -4186,7 +4186,7 @@ p {
   right: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../images/faq-play-bg.png);
+  /* background-image: url(../images/faq-play-bg.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6311,7 +6311,7 @@ blockquote cite {
 .appie-about-page-area {
   padding-top: 462px;
   padding-bottom: 100px;
-  background-image: url(../images/about-page-bg.jpg);
+  background-image: url(../images/Battery/about-page-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6358,7 +6358,7 @@ blockquote cite {
   top: -710px;
   height: 645px;
   width: 80vw;
-  background-image: url(../images/about-page-thumb.jpg);
+  background-image: url(../images/Battery/about-page-thumb.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6424,7 +6424,7 @@ blockquote cite {
 }
 
 .appie-about-8-area {
-  background-image: url(../images/background-bg.jpg);
+  /* background-image: url(../images/background-bg.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6735,7 +6735,7 @@ blockquote cite {
     14.APPIE DOWNLOAD css 
 ===========================*/
 .appie-download-area {
-  background-image: url(../images/download-bg.png);
+  /* background-image: url(../images/download-bg.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6757,7 +6757,7 @@ blockquote cite {
   transform: translateY(-50%);
   height: 100%;
   width: 860px;
-  background-image: url(../images/download-thumb.png);
+  /* background-image: url(../images/download-thumb.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

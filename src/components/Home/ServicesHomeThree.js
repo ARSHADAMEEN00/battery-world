@@ -34,7 +34,7 @@ function ServicesHomeThree() {
                 data-wow-delay="200ms"
               >
                 <div className="icon">
-                  <img src={battery} alt="" />
+                  <img src={battery} alt="" height={35} />
                 </div>
                 <h4 className="appie-title">Automobile Battery</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
@@ -55,7 +55,7 @@ function ServicesHomeThree() {
                 data-wow-delay="400ms"
               >
                 <div className="icon">
-                  <img src={homeInverter} alt="" />
+                  <img src={homeInverter} alt="" height={35} />
                 </div>
                 <h4 className="appie-title">Inverter Battery</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
@@ -77,7 +77,7 @@ function ServicesHomeThree() {
                 data-wow-delay="600ms"
               >
                 <div className="icon">
-                  <img src={inverter} alt="" />
+                  <img src={inverter} alt="" height={35} />
                 </div>
                 <h4 className="appie-title">Inverter System</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>
@@ -99,7 +99,7 @@ function ServicesHomeThree() {
                 data-wow-delay="800ms"
               >
                 <div className="icon">
-                  <img src={solarPanel} alt="" />
+                  <img src={solarPanel} alt="" height={35} />
                 </div>
                 <h4 className="appie-title">Solar System</h4>
                 <p>Mucker plastered bugger all mate morish are.</p>

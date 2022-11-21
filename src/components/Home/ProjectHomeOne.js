@@ -27,7 +27,7 @@ function ProjectHomeOne() {
                   </div>
                 </div>
                 <div className="appie-project-thumb">
-                  <img src="assets/images/project-thumb.png" alt="" />
+                  <img src="assets/images/project-bg.jpg" alt="" />
                 </div>
               </div>
             </div>

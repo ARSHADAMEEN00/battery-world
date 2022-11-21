@@ -7,11 +7,8 @@ import shape12 from "../../assets/images/shape/shape-12.png"
 import shape13 from "../../assets/images/shape/shape-13.png"
 import shape14 from "../../assets/images/shape/shape-14.png"
 import shape15 from "../../assets/images/shape/shape-15.png"
-import showCaseOne from "../../assets/images/showcase-1.png"
-import showCaseTwo from "../../assets/images/showcase-2.png"
-import showCaseThree from "../../assets/images/showcase-3.png"
-import showCaseFour from "../../assets/images/showcase-4.png"
-import showCaseFive from "../../assets/images/showcase-5.png"
+import useCloudinary from "../../Hooks/UseCloudinaryImage"
+import { amaron_p1, amaron_p2, exide_p1, exide_p2, nduron_p1 } from "../util/CloudData"
 
 function ShowCaseHomeThree() {
   const sliderRef = useRef()
@@ -22,7 +19,8 @@ function ShowCaseHomeThree() {
   //     sliderRef.current.slickPrev();
   // };
   const settings = {
-    autoplay: false,
+
+    autoplay: true,
     arrows: false,
     dots: true,
     slidesToShow: 4,
@@ -50,7 +48,7 @@ function ShowCaseHomeThree() {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="appie-section-title text-center">
-                    <h3 className="appie-title">Creative app showcase</h3>
+                    <h3 className="appie-title">Top Trending Products</h3>
                     <p>The app provides design and digital marketing.</p>
                   </div>
                 </div>
@@ -61,35 +59,35 @@ function ShowCaseHomeThree() {
                     <div>
                       <div className="appie-showcase-item mt-30">
                         <a className="appie-image-popup">
-                          <img src={showCaseOne} alt="" />
+                          <img src={useCloudinary(nduron_p1, 'e_improve,w_300,h_550')} alt="" />
                         </a>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
                         <a className="appie-image-popup">
-                          <img src={showCaseTwo} alt="" />
+                          <img src={useCloudinary(amaron_p2, 'e_improve,w_300,h_550')} alt="" />
                         </a>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
                         <a className="appie-image-popup">
-                          <img src={showCaseThree} alt="" />
+                          <img src={useCloudinary(exide_p2, 'e_improve,w_300,h_550')} alt="" />
                         </a>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
                         <a className="appie-image-popup">
-                          <img src={showCaseFour} alt="" />
+                          <img src={useCloudinary(amaron_p1, 'e_improve,w_300,h_550')} alt="" />
                         </a>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
                         <a className="appie-image-popup">
-                          <img src={showCaseFive} alt="" />
+                          <img src={useCloudinary(exide_p1, 'e_improve,w_300,h_550')} alt="" />
                         </a>
                       </div>
                     </div>

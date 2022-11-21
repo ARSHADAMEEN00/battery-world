@@ -1,27 +1,25 @@
 import React from 'react'
-import HeaderAbout from '../components/AboutUs/HeaderAbout'
 import HeroAbout from '../components/AboutUs/HeroAbout'
 import ServicesAbout from '../components/AboutUs/ServicesAbout'
-import TeamAbout from '../components/AboutUs/TeamAbout'
 import BackToTop from '../components/BackToTop'
-import FooterHomeOne from '../components/Home/FooterHomeOne'
 import SponserHomeTwo from '../components/Home/SponserHomeTwo'
 import Drawer from '../components/Mobile/Drawer'
 import SignupHomeEight from "../components/Home/SignupHomeEight"
 import useToggle from '../Hooks/useToggle'
+import HeaderHomeThree from '../components/Home/HeaderHomeThree'
+import FooterHomeThree from '../components/Home/FooterHomeThree'
 
 function AboutUs() {
     const [drawer, drawerAction] = useToggle(false)
     return (
         <>
             <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HeaderAbout drawer={drawer} action={drawerAction.toggle} />
+            <HeaderHomeThree action={drawerAction.toggle} />
             <HeroAbout />
             <ServicesAbout />
-            <TeamAbout />
             <SponserHomeTwo />
             <SignupHomeEight />
-            <FooterHomeOne className="appie-footer-about-area" />
+            <FooterHomeThree className="appie-footer-about-area" />
             <BackToTop />
         </>
     )

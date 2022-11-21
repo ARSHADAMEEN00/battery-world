@@ -15,6 +15,7 @@
     "simple-react-lightbox": "^3.6.9-0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
+   
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,8 +36,13 @@
     ]
   },
   "rules": {
-    "no-console": 1,       
-    "prettier/prettier": ["error", {"singleQuote": false}]
+    "no-console": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false
+      }
+    ]
   },
   "browserslist": {
     "production": [

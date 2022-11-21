@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import logo from "../../assets/images/logo-4.png"
+import { logo } from "../../assets/images/index"
+
 
 function FooterHomeThree({ className }) {
   return (
@@ -12,15 +13,13 @@ function FooterHomeThree({ className }) {
               <div className="footer-about-widget footer-about-widget-3">
                 <div className="logo">
                   <a href="#">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" height={80} />
                   </a>
                 </div>
                 <p>
-                  Appie WordPress is theme is the last theme you will ever have.
+                  company goal
                 </p>
-                <a href="#">
-                  Read More <i className="fal fa-arrow-right" />
-                </a>
+
                 <div className="social mt-30">
                   <ul>
                     <li>
@@ -57,12 +56,7 @@ function FooterHomeThree({ className }) {
                   <li>
                     <Link to="/Service">Service</Link>
                   </li>
-                  <li>
-                    <a href="#">Case Studies</a>
-                  </li>
-                  <li>
-                    <Link to="/news">Blog</Link>
-                  </li>
+
                   <li>
                     <Link to="/contact">Contact</Link>
                   </li>
@@ -74,19 +68,13 @@ function FooterHomeThree({ className }) {
                 <h4 className="title">Support</h4>
                 <ul>
                   <li>
-                    <Link to="/about-us">Community</Link>
-                  </li>
-                  <li>
-                    <a href="#">Resources</a>
-                  </li>
-                  <li>
                     <a href="#">Faqs</a>
                   </li>
                   <li>
                     <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="#">Careers</a>
+                    <a href="#">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>
@@ -96,19 +84,18 @@ function FooterHomeThree({ className }) {
                 <h4 className="title">Get In Touch</h4>
                 <ul>
                   <li>
-                    <a href="#">
-                      <i className="fal fa-envelope" /> support@appie.com
+                    <a href="mailto:BatteryWorld@gmail.com" >
+                      <i className="fal fa-envelope" style={{ paddingTop: 4 }} /> BatteryWorld@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:9995566067">
+                      <i className="fal fa-phone" style={{ paddingTop: 4 }} />+91 9995566067
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fal fa-phone" /> +(642) 342 762 44
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fal fa-map-marker-alt" /> 442 Belle Terre St
-                      Floor 7, San Francisco, AV 4206
+                      <i className="fal fa-map-marker-alt" style={{ paddingTop: 4 }} /> Road, Chattipparamba - Kadampuzha Rd, Kottakkal, Kerala 676504
                     </a>
                   </li>
                 </ul>
@@ -127,7 +114,7 @@ function FooterHomeThree({ className }) {
               "
               >
                 <div className="apps-download-btn">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">
                         <i className="fab fa-apple" /> Download for iOS
@@ -139,10 +126,10 @@ function FooterHomeThree({ className }) {
                         Android
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="copyright-text">
-                  <p>Copyright © 2021 Appie. All rights reserved.</p>
+                  <p>Copyright © {new Date().getFullYear()} Battery World. All rights reserved.</p>
                 </div>
               </div>
             </div>

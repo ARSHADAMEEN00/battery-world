@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import logo from "../../assets/images/logo.png"
 
 function Drawer({ drawer, action }) {
   const [itemSize, setSize] = useState("0px")

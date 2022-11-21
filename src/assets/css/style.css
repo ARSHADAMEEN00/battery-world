@@ -116,3 +116,31 @@
     left: 15px;
   }
 }
+.bg-green {
+  background-color: #28a745 !important;
+  color: #fff !important;
+  border-color: #28a745 !important;
+}
+/* .custom-bg.main-btn:hover {
+  background-color: transparent !important;
+  border-color: #fff !important;
+} */
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appie-fun-fact-item {
+  flex-direction: column;
+}
+.appie-download-3-area {
+  margin-bottom: 8rem;
+}
+img {
+  border-radius: 10px;
+}
+
+.appie-project-3-box .title {
+  font-size: 35px;
+  line-height: 45px;
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import BackToTop from '../components/BackToTop'
 import Forms from '../components/Contact/Forms'
-import HeaderNews from '../components/Contact/HeaderNews'
 import HeroNews from '../components/Contact/HeroNews'
-import FooterHomeOne from '../components/Home/FooterHomeOne'
+import FooterHomeThree from '../components/Home/FooterHomeThree'
+import HeaderHomeThree from '../components/Home/HeaderHomeThree'
 import Drawer from '../components/Mobile/Drawer'
 import useToggle from '../Hooks/useToggle'
 
@@ -12,7 +12,8 @@ function Contact() {
     return (
         <>
             <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HeaderNews drawer={drawer} action={drawerAction.toggle} />
+            <HeaderHomeThree action={drawerAction.toggle} />
+
             <HeroNews
                 title="Blogs"
                 breadcrumb={[
@@ -21,7 +22,7 @@ function Contact() {
                 ]}
             />
             <Forms />
-            <FooterHomeOne />
+            <FooterHomeThree />
             <BackToTop />
         </>
     )

@@ -1,6 +1,6 @@
 import React from "react"
-import downloadThumb from "../../assets/images/download-thumb-1.png"
-import downloadThumbTwo from "../../assets/images/download-thumb-2.png"
+import useCloudinary from "../../Hooks/UseCloudinaryImage"
+import { solar1, solar2 } from "../util/CloudData"
 
 function DownloadHomeThree({ className }) {
   return (
@@ -13,8 +13,10 @@ function DownloadHomeThree({ className }) {
           <div className="row">
             <div className="col-lg-12">
               <div className="appie-section-title text-center">
-                <h3 className="appie-title">Download app today!</h3>
-                <p>Download app for Andraoid today — it's free.</p>
+                <h3 className="appie-title">Solar System</h3>
+                {/* <p >STILL LIVING UNDER THE BURDEN OF HIGH ELECTRICITY BILL?<br />
+                  SAVE ON BILLS BY CHOOSEING SOLAR</p> */}
+                <p >Still living under the burden of high electricity bills?<br /> Save on bills by choosing solar</p>
               </div>
             </div>
           </div>
@@ -30,11 +32,11 @@ function DownloadHomeThree({ className }) {
                   <p>Download app for Android today — it's free.</p>
                   <a className="main-btn" href="#">
                     <i className="fab fa-google-play" />
-                    Download for Android
+                    Book Now
                   </a>
                 </div>
-                <div className="thumb text-center">
-                  <img src={downloadThumb} alt="" />
+                <div className="thumb text-center p-4">
+                  <img src={useCloudinary(solar1, '')} alt="" width={430} height={280} />
                 </div>
               </div>
             </div>
@@ -52,8 +54,8 @@ function DownloadHomeThree({ className }) {
                     Download for iOS
                   </a>
                 </div>
-                <div className="thumb text-right">
-                  <img src={downloadThumbTwo} alt="" />
+                <div className="thumb text-center p-4">
+                  <img src={useCloudinary(solar2, '')} alt="" width={430} height={280} />
                 </div>
               </div>
             </div>

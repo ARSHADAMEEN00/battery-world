@@ -1,5 +1,5 @@
 import React from "react"
-import thumb from "../../assets/images/service-details-thumb.jpg"
+import { service_banner } from "../../assets/images"
 
 function DetailsService() {
   return (
@@ -46,7 +46,7 @@ function DetailsService() {
             <div className="col-lg-8">
               <div className="service-details-content">
                 <div className="thumb">
-                  <img src={thumb} alt="" />
+                  <img src={service_banner} alt="" />
                 </div>
                 <div className="content">
                   <h3 className="title">What we're Building</h3>

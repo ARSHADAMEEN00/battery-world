@@ -9,3 +9,5 @@ export const service1 = CLOUD_URL + `/v1668941841/${folder}/service_banner.png`
 export const nduron_p1 = CLOUD_URL + `/v1668946255/${folder}/nduron_battery_axsuej.jpg`
 export const solar1 = CLOUD_URL + `/v1669019167/${folder}/solar_banner1_tvua17.jpg`
 export const solar2 = CLOUD_URL + `/v1669019168/${folder}/solar_banner2_ej0i5w.jpg`
+export const homeBanner = CLOUD_URL + `/v1669023173/${folder}/homeBanner_kmwphy.png`
+

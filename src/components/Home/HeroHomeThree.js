@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { heroBanner } from "../../assets/images"
+import useCloudinary from "../../Hooks/UseCloudinaryImage"
 import PopupVideo from "../PopupVideo"
+import { homeBanner } from "../util/CloudData"
 
 function HeroHomeThree() {
   const [showVideo, setVideoValue] = useState(false)
@@ -47,7 +49,7 @@ function HeroHomeThree() {
                   data-wow-duration="2000ms"
                   data-wow-delay="400ms"
                 >
-                  <img src={heroBanner} alt="" />
+                  <img src={useCloudinary(homeBanner, 'w_600')} alt="" />
                 </div>
               </div>
             </div>

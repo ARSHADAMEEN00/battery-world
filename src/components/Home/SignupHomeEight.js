@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import signupThumb from "../../assets/images/signup-thumb.png"
 
 function SponserHomeEight({ className }) {
@@ -26,7 +27,7 @@ function SponserHomeEight({ className }) {
                       <input type="checkbox" name="checkbox2" id="checkbox4" />
                       <label htmlFor="checkbox4">
                         <span></span>By signing up you agree to our
-                        <a href="#">Terms & Conditions.</a>
+                        <Link to="#">Terms & Conditions.</Link>
                       </label>
                     </div>
                   </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import { service_banner } from "../../assets/images"
 
 function DetailsService() {
@@ -30,16 +31,16 @@ function DetailsService() {
                   </ul>
                 </div>
                 <div className="service-download-widget">
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-download"></i>
                     <span>Download docs</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="service-download-widget">
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-file-pdf"></i>
                     <span>Characteristics</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

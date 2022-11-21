@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function Forms() {
   return (
@@ -40,18 +41,18 @@ function Forms() {
                 </div>
                 <div className="ab-social">
                   <h5>Follow Us</h5>
-                  <a className="fac" href="#">
+                  <Link className="fac" to="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="twi" href="#">
+                  </Link>
+                  <Link className="twi" to="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="you" href="#">
+                  </Link>
+                  <Link className="you" to="#">
                     <i className="fab fa-youtube"></i>
-                  </a>
-                  <a className="lin" href="#">
+                  </Link>
+                  <Link className="lin" to="#">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -93,7 +94,7 @@ function Forms() {
                     <div className="condition-check">
                       <input id="terms-conditions" type="checkbox" />
                       <label htmlFor="terms-conditions">
-                        I agree to the <a href="#">Terms & Conditions</a>
+                        I agree to the <Link to="#">Terms & Conditions</Link>
                       </label>
                     </div>
                   </div>

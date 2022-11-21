@@ -43,9 +43,7 @@ function FunFactHomeThree() {
                         <div className="col-sm-4">
                           <div className="appie-fun-fact-item d-flex">
                             <h4 className="title">
-                              <img src={customer} height={40} />
-
-
+                              <img src={customer} height={40} alt="customer" />
                             </h4>
                             <span>Customer Satisaction</span>
                           </div>
@@ -53,7 +51,7 @@ function FunFactHomeThree() {
                         <div className="col-sm-4">
                           <div className="appie-fun-fact-item d-flex">
                             <h4 className="title">
-                              <img src={badge} height={40} />
+                              <img src={badge} height={40} alt="badge" />
 
                             </h4>
                             <span>Excellent Service</span>
@@ -72,7 +70,7 @@ function FunFactHomeThree() {
                           <div className="appie-fun-fact-item d-flex">
                             <h4 className="title">
                               <img src={premium}
-
+                                alt="premium"
                                 height={40} />
                             </h4>
                             <span>Quality & Reliablity</span>

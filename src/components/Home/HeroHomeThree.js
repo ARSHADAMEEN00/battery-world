@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { heroBanner } from "../../assets/images"
+import { Link } from "react-router-dom"
 import useCloudinary from "../../Hooks/UseCloudinaryImage"
 import PopupVideo from "../PopupVideo"
 import { homeBanner } from "../util/CloudData"
@@ -33,23 +33,23 @@ function HeroHomeThree() {
                   SALES & SERVICE
                 </p>
                 <div className="hero-btns">
-                  <a className="main-btn" href="#">
+                  <Link className="main-btn" to="#">
                     Learn more
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     onClick={e => handleShowVideo(e)}
                     className="appie-video-popup"
-                    href={'#!'}
+                    to={'#'}
                   >
                     <i className="fas fa-play" /> Play Video
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className="thumb mt-100 wow animated fadeInUp"
                   data-wow-duration="2000ms"
                   data-wow-delay="400ms"
                 >
-                  <img src={useCloudinary(homeBanner, 'w_1200')} alt="" />
+                  <img src={useCloudinary(homeBanner, 'w_1200')} alt="chattiparamba" />
                 </div>
               </div>
             </div>

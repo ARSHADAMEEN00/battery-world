@@ -12,9 +12,9 @@ function FooterHomeThree({ className }) {
             <div className="col-lg-4 col-md-6">
               <div className="footer-about-widget footer-about-widget-3">
                 <div className="logo">
-                  <a href="#">
+                  <Link to="#">
                     <img src={logo} alt="" height={80} />
-                  </a>
+                  </Link>
                 </div>
                 <p>
                   company goal
@@ -23,24 +23,24 @@ function FooterHomeThree({ className }) {
                 <div className="social mt-30">
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-pinterest-p" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -68,13 +68,13 @@ function FooterHomeThree({ className }) {
                 <h4 className="title">Support</h4>
                 <ul>
                   <li>
-                    <a href="#">Faqs</a>
+                    <Link to="#">Faqs</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link to="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link to="#">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -94,9 +94,9 @@ function FooterHomeThree({ className }) {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fal fa-map-marker-alt" style={{ paddingTop: 4 }} /> Road, Chattipparamba - Kadampuzha Rd, Kottakkal, Kerala 676504
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

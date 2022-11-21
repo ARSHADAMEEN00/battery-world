@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import useCloudinary from "../../Hooks/UseCloudinaryImage"
 import { solar1, solar2 } from "../util/CloudData"
 
@@ -30,10 +31,10 @@ function DownloadHomeThree({ className }) {
                 <div className="content">
                   <h4 className="title">Android</h4>
                   <p>Download app for Android today — it's free.</p>
-                  <a className="main-btn" href="#">
+                  <Link className="main-btn" to="#">
                     <i className="fab fa-google-play" />
                     Book Now
-                  </a>
+                  </Link>
                 </div>
                 <div className="thumb text-center p-4">
                   <img src={useCloudinary(solar1, '')} alt="" width={430} height={280} />
@@ -49,10 +50,10 @@ function DownloadHomeThree({ className }) {
                 <div className="content">
                   <h4 className="title">iOS & iPadOS</h4>
                   <p>Download app for iOS today — it's free.</p>
-                  <a className="main-btn main-btn-2" href="#">
+                  <Link className="main-btn main-btn-2" to="#">
                     <i className="fab fa-apple" />
                     Download for iOS
-                  </a>
+                  </Link>
                 </div>
                 <div className="thumb text-center p-4">
                   <img src={useCloudinary(solar2, '')} alt="" width={430} height={280} />

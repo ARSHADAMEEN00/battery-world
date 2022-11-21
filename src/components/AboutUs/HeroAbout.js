@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function HeroAbout() {
   return (
@@ -34,9 +35,9 @@ function HeroAbout() {
                   mucker fantastic in my flat so I said nice one he lost his
                   bottle.
                 </p>
-                <a href="#">
+                <Link to="#">
                   View all Members <i className="fal fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

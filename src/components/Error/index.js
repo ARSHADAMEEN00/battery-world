@@ -1,5 +1,5 @@
 import React from "react"
-import { useHistory } from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
 import Svg from "./Svg"
 
 function Error() {
@@ -22,9 +22,9 @@ function Error() {
                   The page you're looking for isn't available. Use the go back
                   button below
                 </p>
-                <a onClick={e => goBack(e)} href="#">
+                <Link onClick={e => goBack(e)} to="#">
                   Go Back <i className="fal fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

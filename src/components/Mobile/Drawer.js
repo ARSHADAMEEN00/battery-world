@@ -26,9 +26,9 @@ function Drawer({ drawer, action }) {
                 className={`offcanvas_menu_wrapper ${drawer ? "active" : ""}`}
               >
                 <div className="canvas_close">
-                  <a href="#" onClick={e => action(e)}>
+                  <Link to="#" onClick={e => action(e)}>
                     <i className="fa fa-times"></i>
-                  </a>
+                  </Link>
                 </div>
                 <div className="offcanvas-brand text-center mb-40">
                   {/* <img src={logo} alt="" /> */}
@@ -63,7 +63,7 @@ function Drawer({ drawer, action }) {
                       <span className="menu-expand">
                         <i className="fa fa-angle-down"></i>
                       </span>
-                      <a href="#">Pages</a>
+                      <Link to="#">Pages</Link>
                       <ul
                         className="sub-menu"
                         style={{
@@ -87,7 +87,7 @@ function Drawer({ drawer, action }) {
                       <span className="menu-expand">
                         <i className="fa fa-angle-down"></i>
                       </span>
-                      <a href="#">News</a>
+                      <Link to="#">News</Link>
                       <ul
                         className="sub-menu"
                         style={{
@@ -114,44 +114,44 @@ function Drawer({ drawer, action }) {
                 <div className="offcanvas-social">
                   <ul className="text-center">
                     <li>
-                      <a href="$">
+                      <Link to="$">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="$">
+                      <Link to="$">
                         <i className="fab fa-twitter"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="$">
+                      <Link to="$">
                         <i className="fab fa-instagram"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="$">
+                      <Link to="$">
                         <i className="fab fa-dribbble"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="footer-widget-info">
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fal fa-envelope"></i> support@appie.com
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fal fa-phone"></i> +(642) 342 762 44
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fal fa-map-marker-alt"></i> 442 Belle
                         Terre St Floor 7, San Francisco, AV 4206
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

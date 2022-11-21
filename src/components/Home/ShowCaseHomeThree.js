@@ -1,4 +1,5 @@
 import React, { useRef } from "react"
+import { Link } from "react-router-dom"
 import Slider from "react-slick"
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"
 import "slick-carousel/slick/slick-theme.css"
@@ -58,37 +59,37 @@ function ShowCaseHomeThree() {
                   <Slider ref={sliderRef} {...settings}>
                     <div>
                       <div className="appie-showcase-item mt-30">
-                        <a className="appie-image-popup">
+                        <Link to={"#"} className="appie-image-popup">
                           <img src={useCloudinary(nduron_p1, 'e_improve,w_300,h_550')} alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div>
-                      <div className="appie-showcase-item mt-30">
-                        <a className="appie-image-popup">
+                      <div to={"#"} className="appie-showcase-item mt-30">
+                        <Link className="appie-image-popup">
                           <img src={useCloudinary(amaron_p2, 'e_improve,w_300,h_550')} alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
-                        <a className="appie-image-popup">
+                        <Link to={"#"} className="appie-image-popup">
                           <img src={useCloudinary(exide_p2, 'e_improve,w_300,h_550')} alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
-                        <a className="appie-image-popup">
+                        <Link to={'#'} className="appie-image-popup">
                           <img src={useCloudinary(amaron_p1, 'e_improve,w_300,h_550')} alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div>
                       <div className="appie-showcase-item mt-30">
-                        <a className="appie-image-popup">
+                        <Link to={'#'} className="appie-image-popup">
                           <img src={useCloudinary(exide_p1, 'e_improve,w_300,h_550')} alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </Slider>

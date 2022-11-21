@@ -49,7 +49,7 @@ function HeroHomeThree() {
                   data-wow-duration="2000ms"
                   data-wow-delay="400ms"
                 >
-                  <img src={useCloudinary(homeBanner, 'w_600')} alt="" />
+                  <img src={useCloudinary(homeBanner, 'w_1200')} alt="" />
                 </div>
               </div>
             </div>

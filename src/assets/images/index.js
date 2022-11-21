@@ -1,5 +1,4 @@
 export { default as logo } from "./logo/logo.png"
-export { default as heroBanner } from "./Battery/homeBanner.png"
 export { default as AutomobileBattery } from "./Battery/AutomobileBattery.png"
 export { default as homeInverter } from "./Battery/homeInverter.png"
 export { default as inverter } from "./Battery/inverter.png"
